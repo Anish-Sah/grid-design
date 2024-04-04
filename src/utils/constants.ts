@@ -1,4 +1,11 @@
-export const links = [
+interface ILink {
+  id: number
+  url: string
+  text: string
+  subLinks?: ILink[]
+}
+
+export const links: ILink[] = [
   {
     id: 1,
     url: '/',
@@ -9,25 +16,25 @@ export const links = [
     url: '/about',
     text: 'about',
     subLinks: [
-      {
-        text: 'empowering innovators',
-        url: '/about/empower',
-      },
-      {
-        text: 'sustainable solutions',
-        url: '/about/sustainable',
-      },
-      {
-        text: 'innovation hub',
-        url: '/about/innovation',
-      },
+      // {
+      //   text: 'empowering innovators',
+      //   url: '/about/empower',
+      // },
+      // {
+      //   text: 'sustainable solutions',
+      //   url: '/about/sustainable',
+      // },
+      // {
+      //   text: 'innovation hub',
+      //   url: '/about/innovation',
+      // },
     ],
   },
-  {
-    id: 3,
-    url: '/our-mission',
-    text: 'mission',
-  },
+  // {
+  //   id: 3,
+  //   url: '/our-mission',
+  //   text: 'mission',
+  // },
   {
     id: 4,
     url: '/team',

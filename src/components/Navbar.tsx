@@ -34,7 +34,7 @@ const Navbar = () => {
                           }`}
                         >
                           <Link to={url} className="link">
-                            {subLinks && subLinks.length ? (
+                            {subLinks && subLinks.length > 0 ? (
                               <div className="expandable-link">
                                 {text}
 
@@ -48,7 +48,7 @@ const Navbar = () => {
                             )}
                             <div className="underline"></div>
                           </Link>
-                          {subLinks && subLinks.length && (
+                          {subLinks && subLinks.length > 0 && (
                             <div className="sub-links-container">
                               {subLinks.map((subLink, index) => {
                                 return (
@@ -84,10 +84,10 @@ const Navbar = () => {
           </div>
         </nav>
       </Wrapper>
-      {/* <Sidebar
+      <Sidebar
         isSidebarOpen={isSidebarOpen}
         setIsSidebarOpen={setIsSidebarOpen}
-      /> */}
+      />
     </>
   )
 }
