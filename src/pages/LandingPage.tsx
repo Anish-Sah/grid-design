@@ -1,5 +1,13 @@
+import { Services } from '../components'
+import Hero from '../components/landingPage/Hero'
+
 const LandingPage = () => {
-  return <div>LandingPage</div>
+  return (
+    <main>
+      <Hero />
+      <Services />
+    </main>
+  )
 }
 
 export default LandingPage

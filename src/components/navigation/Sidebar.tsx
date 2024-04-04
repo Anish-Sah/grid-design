@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom'
 import { FaTimes } from 'react-icons/fa'
 import styled from 'styled-components'
-import Logo from './utilities/Logo'
+import Logo from '../utilities/Logo'
 // import { useEffect, useState } from 'react'
-import { links } from '../utils/constants'
+import { links } from '../../utils/LinksConstants'
 
 interface IProps {
   isSidebarOpen: boolean

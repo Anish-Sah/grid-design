@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { LandingPage } from './pages'
-import { Footer, Navbar, ScrollToTop } from './components'
 import ErrorPage from './pages/ErrorPage'
+import { Footer, Navbar, ScrollToTop } from './components'
 
 function App() {
   return (

@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 import { FaBars } from 'react-icons/fa'
-import Logo from './utilities/Logo'
-import { links } from '../utils/constants'
+import Logo from '../utilities/Logo'
+import { links } from '../../utils/LinksConstants'
 import { Link } from 'react-router-dom'
 import Sidebar from './Sidebar'
 import { useState } from 'react'
