@@ -1,3 +1,4 @@
 import LandingPage from './LandingPage'
+import AboutPage from './AboutPage'
 
-export { LandingPage }
+export { LandingPage, AboutPage }

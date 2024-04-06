@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { LandingPage } from './pages'
+import { AboutPage, LandingPage } from './pages'
 import ErrorPage from './pages/ErrorPage'
 import { Footer, Navbar, ScrollToTop } from './components'
 
@@ -10,6 +10,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/about" element={<AboutPage />} />
+
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />

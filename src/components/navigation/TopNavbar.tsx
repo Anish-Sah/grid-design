@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { GrMailOption } from 'react-icons/gr'
 import { IoMdPin } from 'react-icons/io'
+import { COMPANY_INFO } from '../../utils/constant'
 
 const TopNavbar = () => {
   return (
@@ -16,7 +17,7 @@ const TopNavbar = () => {
                 to={'mailto:griddesignconsultancy@gmail.com'}
                 className="contact-info"
               >
-                <GrMailOption /> griddesignconsultancy@gmail.com
+                <GrMailOption /> {COMPANY_INFO.email}
               </Link>
             </div>
 
@@ -26,7 +27,7 @@ const TopNavbar = () => {
                 to={'tel:+977-9849374440'}
                 className="contact-info"
               >
-                <FaPhoneAlt /> +977-9849374440
+                <FaPhoneAlt /> +977-{COMPANY_INFO.contact.join(', ')}
               </Link>
             </div>
 
@@ -38,7 +39,7 @@ const TopNavbar = () => {
                 className="contact-info"
               >
                 <IoMdPin />
-                <span>Katahariya, Rautahat</span>
+                <span>{COMPANY_INFO.address}</span>
               </Link>
             </div>
           </div>
