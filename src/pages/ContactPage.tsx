@@ -10,7 +10,6 @@ const ContactPage = () => {
     <Wrapper>
       <PageHero
         title="contact"
-        endPoint="contact"
         subText="Connect with us through and let's begin your Australian journey. We're here to assist you every step of the way."
         image={heroImg}
       />

@@ -6,19 +6,9 @@ interface Props {
   title?: string
   subText?: string
   image?: string
-  services?: boolean
-  visas?: boolean
-  endPoint?: string
 }
 
-const PageHero = ({
-  title = 'title',
-  subText,
-  image = heroImg,
-  services,
-  visas,
-  endPoint,
-}: Props) => {
+const PageHero = ({ title = 'title', subText, image = heroImg }: Props) => {
   return (
     <Wrapper>
       <div className="page-header">
@@ -29,11 +19,7 @@ const PageHero = ({
         </div>
         <div className="banner-container">
           <div className="section-center">
-            <Breadcrumbs
-              services={services}
-              visas={visas}
-              endPoint={endPoint}
-            />
+            <Breadcrumbs />
             <div className="text">
               <div className="page-hero-title">{title}</div>
               {subText && <div className="sub-text">{subText}</div>}

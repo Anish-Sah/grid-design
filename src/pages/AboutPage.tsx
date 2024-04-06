@@ -75,6 +75,10 @@ const AboutPage = () => {
   )
 }
 
-const Wrapper = styled.div``
+const Wrapper = styled.div`
+  .about-us {
+    text-align: justify;
+  }
+`
 
 export default AboutPage
