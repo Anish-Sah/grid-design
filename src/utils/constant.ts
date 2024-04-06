@@ -12,3 +12,22 @@ export const COMPANY_INFO = {
     },
   ],
 }
+
+export enum ProjectCategory {
+  Construction = 'construction',
+  Consultancy = 'consultancy',
+  EngineeringServices = 'engineering services',
+}
+
+export enum ProjectStatus {
+  Acquired = 'ACQUIRED',
+  Completed = 'COMPLETED',
+  Ongoing = 'ONGOING',
+}
+
+export const portfolioThemeColors = ['#f0d5f2', '#c8edfa', '#a7fcd6', '#fad3ac']
+export const projectStatusColors = {
+  [ProjectStatus.Acquired]: '#ffc166',
+  [ProjectStatus.Completed]: '#90ee90',
+  [ProjectStatus.Ongoing]: '#85c6dc',
+}
