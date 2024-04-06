@@ -33,11 +33,6 @@ export const links: INavLink[] = [
       // },
     ],
   },
-  // {
-  //   id: 3,
-  //   url: '/our-mission',
-  //   text: 'mission',
-  // },
   {
     id: 4,
     url: '/team',

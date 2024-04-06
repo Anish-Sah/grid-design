@@ -7,7 +7,7 @@ import {
   TeamPage,
 } from './pages'
 import ErrorPage from './pages/ErrorPage'
-import { Footer, Navbar, ScrollToTop } from './components'
+import { Footer, Navbar, NextButton, ScrollToTop } from './components'
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         <Route path="/team" element={<TeamPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <NextButton />
       <Footer />
     </BrowserRouter>
   )

@@ -86,7 +86,7 @@ const ContactForm = () => {
 
         <button
           className="btn sendBtn"
-          type="submit"
+          type="button"
           disabled={state.submitting}
           aria-label="submit your message to us by sending email"
         >

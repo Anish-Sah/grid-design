@@ -6,6 +6,7 @@ import Sidebar from './navigation/Sidebar'
 import Services from './landingPage/Services'
 import PageHero from './utilities/PageHero'
 import ContactForm from './contactPage/ContactForm'
+import NextButton from './utilities/NextButton'
 
 export {
   Hero,
@@ -16,4 +17,5 @@ export {
   Services,
   PageHero,
   ContactForm,
+  NextButton,
 }
