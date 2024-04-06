@@ -5,5 +5,15 @@ import ScrollToTop from './utilities/ScrollToTop'
 import Sidebar from './navigation/Sidebar'
 import Services from './landingPage/Services'
 import PageHero from './utilities/PageHero'
+import ContactForm from './contactPage/ContactForm'
 
-export { Hero, Navbar, Footer, ScrollToTop, Sidebar, Services, PageHero }
+export {
+  Hero,
+  Navbar,
+  Footer,
+  ScrollToTop,
+  Sidebar,
+  Services,
+  PageHero,
+  ContactForm,
+}
