@@ -1,7 +1,7 @@
 {
   "name": "grid-design",
   "homepage": "https://anish-sah.github.io/grid-design",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
