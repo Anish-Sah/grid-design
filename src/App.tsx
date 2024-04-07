@@ -9,6 +9,8 @@ import {
 import ErrorPage from './pages/ErrorPage'
 import { Footer, Navbar, NextButton, ScrollToTop } from './components'
 
+// HashRouter is used to create a hash-based routing system, because GitHub Pages doesn't support browser history routing.
+
 function App() {
   return (
     <HashRouter>
