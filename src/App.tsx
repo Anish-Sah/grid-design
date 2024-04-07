@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import {
   AboutPage,
   ContactPage,
@@ -11,7 +11,7 @@ import { Footer, Navbar, NextButton, ScrollToTop } from './components'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Navbar />
       <Routes>
@@ -24,7 +24,7 @@ function App() {
       </Routes>
       <NextButton />
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
